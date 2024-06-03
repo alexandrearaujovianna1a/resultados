@@ -98,6 +98,7 @@ border-radius: 0 0 3.2rem 3.2rem;
     display: flex;
     align-items: center;
     gap: 1.2rem;
+    border-radius: 3.2rem;
 }
 
 .resumo > div strong {
@@ -196,6 +197,19 @@ border-radius: 0 0 3.2rem 3.2rem;
 .resumo h2 {
     font-size: 2.4rem;
     margin-bottom: 3rem;
+}
+
+.resumo div {
+    font-size: 1.8rem;
+}
+
+.resumo button {
+    margin-top: 2.4rem;
+}
+
+.resumo button:hover {
+    background: var(--resultado-bg);
+    cursor: pointer;
 }
 
 
